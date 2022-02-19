@@ -1,0 +1,266 @@
+db.pedidos.insert([
+    {
+        "pedido_id": 1, 
+        "solicitado": new Date ("2021-08-17T17:15:45Z"),
+        "cliente": { 
+            "nombre": "Macarena" ,
+            "apellido": ["Olayo","Arribas"],
+            "direccion": {
+                "provincia": "Barcelona",
+                "localidad": "Barcelona",
+                "cp": "08006", 
+                "calle": "Carrer d'Aribau",
+                "numero": 230,
+                "piso": 2,
+                "puerta": 2        
+                } ,
+            "telefono": 643099634
+            }, 
+        "productos": [
+            {
+                "producto_id": 1,
+                "tipo": "bebida",
+                "nombre": "Coca Cola",
+                "descripcion": "Sabor Original Botella 50 Cl.",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/3199161144",
+                "precio": 1.65
+            },
+            {
+                "producto_id": 7,
+                "tipo": "hamburguesa",
+                "nombre": "CLASICA",
+                "descripcion": "INGREDIENTES:200 gr.de ternera Cebolla fresca, Tomate, Cogollos, Mayonesa casera",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/2356973012",
+                "precio": 9.6
+            },
+            {
+                "producto_id": 8,
+                "tipo": "hamburguesa",
+                "nombre": "GRAN VEGANO",
+                "descripcion": "INGREDIENTES:Cebolla fresca, Tomate, Cogollos, Aguacate, Burger de garbanzos, maíz dulce, espinaca baby y pimiento rojo, Chutney picante",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/2356973037",
+                "precio": 10.6
+            }
+        ],
+        "total":{
+            "productos": 3,
+            "precio": 21.85
+        },
+        "recogida": {
+            "tipo": "domicilio",
+            "entregado": new Date ("2021-08-17T17:45:45Z"),
+            "repartidor": {
+                "nombre": "Luis",
+                "apellido": ["Martínez","Velasco"],
+                "nif": "Y8902655P"
+            }
+        }
+    },
+    {
+        "pedido_id": 2, 
+        "solicitado": new Date ("2021-08-17T21:05:33Z"),
+        "cliente": { 
+            "cliente_id": 7,
+            "nombre": "Daniel" ,
+            "apellido": ["Herman","Pacocha"],
+            "direccion": {
+                "provincia": "Barcelona",
+                "localidad": "Badalona",
+                "cp": "08912", 
+                "calle": "Carrer de Santa Bàrbara",
+                "numero": 64,
+                "piso": 2,
+                "puerta": 2     
+                } ,
+            "telefono": 626652498      
+            }, 
+        "productos": [
+            {
+                "producto_id": 11,
+                "tipo": "pizza",
+                "nombre": "Margherita",
+                "descripcion": "Tomate, mozzarella, aceite de oliva, albahaca y parmesano",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/n94rkfse7yl8ba6bpkod",
+                "precio": 6.9,
+                "categoria": "Clasica"
+            },
+            {
+                "producto_id": 7,
+                "tipo": "hamburguesa",
+                "nombre": "CLASICA",
+                "descripcion": "INGREDIENTES:200 gr.de ternera Cebolla fresca, Tomate, Cogollos, Mayonesa casera",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/2356973012",
+                "precio": 9.6
+            },
+            {
+                "producto_id": 4,
+                "tipo": "bebida",
+                "nombre": "Cerveza Desperados",
+                "descripcion": "Botella 33 Cl.",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/3199161095",
+                "precio": 1.99
+            }
+        ],
+        "total":{
+            "productos": 3,
+            "precio": 18.48
+        },
+        "recogida": { 
+            "tipo": "tienda"
+            }
+    
+    },
+    
+    {
+    "pedido_id": 3, 
+        "solicitado": new Date ("2021-08-21T20:33:15Z"),
+        "cliente": {
+            "cliente_id": 3,
+            "nombre": "Alberto" ,
+            "apellido": ["Martínez","Castillo"],
+            "direccion": {
+                "provincia": "Barcelona",
+                "localidad": "Barcelona",
+                "cp": "08015", 
+                "calle": "Carrer de Tarragona",
+                "numero": 108,
+                "piso": 1,
+                "puerta": 1        
+                } ,
+            "telefono": 668724367
+            }, 
+        "productos": [
+            {
+                "producto_id": 1,
+                "tipo": "bebida",
+                "nombre": "Coca Cola",
+                "descripcion": "Sabor Original Botella 50 Cl.",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/3199161144",
+                "precio": 1.65
+            },
+            {
+                "producto_id": 4,
+                "tipo": "bebida",
+                "nombre": "Cerveza Desperados",
+                "descripcion": "Botella 33 Cl.",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/3199161095",
+                "precio": 1.99
+            },
+            {
+                "producto_id": 4,
+                "cantidad": 2,
+                "tipo": "bebida",
+                "nombre": "Cerveza Desperados",
+                "descripcion": "Botella 33 Cl.",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/3199161095",
+                "precio": 1.99
+            },
+            {
+                "producto_id": 10,
+                "tipo": "pizza",
+                "nombre": "Napoli",
+                "descripcion": "Tomate, mozzarella, anchoas, alcaparras, olivas negras, orégano, aceite de oliva y albahaca",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/ye6mdnrkl2wjykodphwh",
+                "precio": 9.95,
+                "categoria": "Favoritas"
+            }
+        ],
+        "total":{
+            "productos": 4,
+            "precio": 15.57
+        },
+        "recogida": {
+            "tipo": "domicilio",
+            "entregado": new Date ("2021-08-21T20:55:48Z"),
+            "repartidor": {
+                "nombre": "Eduardo",
+                "apellido": ["Terés","Peña"],
+                "nif": "L6405476P"
+            }
+        }
+        
+    },
+    {
+        "pedido_id": 4, 
+        "solicitado": new Date ("2021-09-01T11:10:00Z"),
+        "cliente": {
+            "cliente_id": 5,
+            "nombre": "Zoe" ,
+            "apellido": ["Ramirez","Gea"],
+            "direccion": {
+                "provincia": "Madrid",
+                "localidad": "Madrid",
+                "cp": "28041", 
+                "calle": "Av. de Andalucía",
+                "numero": 7,
+                "piso": 3,
+                "puerta": 1        
+                } ,
+            "telefono": 989827265
+            },    
+        "productos": [
+            {
+                "producto_id": 8,
+                "tipo": "hamburguesa",
+                "nombre": "GRAN VEGANO",
+                "descripcion": "INGREDIENTES:Cebolla fresca, Tomate, Cogollos, Aguacate, Burger de garbanzos, maíz dulce, espinaca baby y pimiento rojo, Chutney picante",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/2356973037",
+                "precio": 10.6
+            },
+            {
+                "producto_id": 9,
+                "tipo": "hamburguesa",
+                "nombre": "POLLO LA CRÈME",
+                "descripcion": "INGREDIENTES: Cebolla caramelizada, Sour cream, Tomate, Cogollos, Cebolla, Mayonesa casera, Pechuga de pollo marinada",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/2356973047",
+                "precio": 11.65
+            },
+            {
+                "producto_id": 13,
+                "tipo": "pizza",
+                "nombre": "Quattro Formaggi",
+                "descripcion": "Mozzarella, ricotta, gorgonzola, pecorino, aceite de oliva virgen extra y albahaca",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/wpn9e6wrltj1eddhqctw",
+                "precio": 11.9,
+                "categoria": "Favoritas"
+            },
+            {
+                "producto_id": 14,
+                "tipo": "pizza",
+                "nombre": "Diavola",
+                "descripcion": "Tomate, mozzarella, salame, cebolla roja, peperoncino y aceite de oliva virgen extra",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/rqwijxsfckxq5yx1lqyu",
+                "precio": 10.9,
+                "categoria": "Clasica"
+            },
+            {
+                "producto_id": 5,
+                "tipo": "bebida",
+                "nombre": "Cerveza Corona",
+                "descripcion": "Botella 3.55 Cl.",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/3199161219",
+                "precio": 1.99    
+            },
+            {
+                "producto_id": 5,
+                "cantidad": 2,
+                "tipo": "bebida",
+                "nombre": "Cerveza Corona",
+                "descripcion": "Botella 3.55 Cl.",
+                "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/3199161219",
+                "precio": 1.99    
+            }
+        ],
+        "total":{
+            "productos": 6,
+            "precio": 49.02
+        },
+        "recogida": { 
+            "tipo": "tienda"
+            }
+                
+    } 
+    
+    ])
+    
+    

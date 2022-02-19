@@ -1,0 +1,78 @@
+db.clientes.insert([
+{
+    "cliente_id": 1,
+    "nombre": "Alejandro Arribas" ,
+    "direccion": {
+        "calle": "Carrer d'Aribau",
+        "numero": 276,
+        "piso": 1,
+        "puerta": 1,
+        "cuidad": "Barcelona",
+        "cp": "08006", 
+        "pais": "España"
+        } ,
+    "contacto": {
+        "telefono": 674784898,
+        "email": "alejandroarribas@gmail.com"
+    },
+    "fechaRegistro": new Date("15/11/2021")
+    },
+
+{
+    "cliente_id": 2,
+    "nombre": "Tomás Radós" ,
+    "direccion": {
+        "calle": "C. de Mallorca",
+        "numero": 146,
+        "piso": 2,
+        "puerta": 2,
+        "cuidad": "Barcelona",
+        "cp": "08036", 
+        "pais": "España"
+        },
+    "contacto": {
+        "telefono": 687563271,
+        "email": "tomásradós@gmail.com"
+    },
+    "fechaRegistro": new Date("12/12/2021")
+    },
+
+{
+    "cliente_id": 3,
+    "nombre": "Inma Cordón" ,
+    "direccion": {
+        "calle": "Carrer de Casp",
+        "numero": 34,
+        "piso": 1,
+        "puerta": 3,
+        "cuidad": "Barcelona",
+        "cp": "08010", 
+        "pais": "España"
+        } ,
+    "contacto": {
+        "telefono": 609652177,
+        "email": "cordón@gmail.com"
+    },
+    "fechaRegistro": new Date("07/12/2021"),
+    "porIdCliente": 1
+    },
+{
+    "cliente_id": 4,
+    "nombre": "Lara Martín" ,
+    "direccion": {
+        "calle": "Travessera de Dalt",
+        "numero": 4,
+        "piso": 1,
+        "puerta": 1,
+        "cuidad": "Barcelona",
+        "cp": "08024", 
+        "pais": "España"
+        } ,
+    "contacto": {
+        "telefono": 676441287,
+        "email": "martín@gmail.com"
+    },
+    "fechaRegistro": new Date("10/12/2021"),
+    "porIdCliente": 3
+    }
+])

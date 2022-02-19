@@ -1,0 +1,70 @@
+db.empleados.insert([
+{
+    "empleado_id": 1,
+    "nombre": "Eduardo" ,
+    "apellido": ["Arribas","Mottola"],
+    "nif": "L0984556B",
+    "telefono": 635677637,
+    "tipo": "repartidor",
+    "tienda": {
+        "direccion": {
+            "provincia": "Barcelona",
+            "localidad": "Barcelona",
+            "cp": "08006", 
+            "calle": "Via Augusta",
+            "numero": 160    
+            } 
+        }
+},
+{
+    "empleado_id": 2,
+    "nombre": "Denisse" ,
+    "apellido": ["Terés","Mayo"],
+    "nif": "Y7889055E",
+    "telefono": 652294700,
+    "tipo": "cocinero",
+    "tienda": {
+            "direccion": {
+            "provincia": "Barcelona",
+            "localidad": "Barcelona",
+            "cp": "08006", 
+            "calle": "Via Augusta",
+            "numero": 160    
+            } 
+        }   
+},
+{
+    "empleado_id": 3,
+    "nombre": "Luis" ,
+    "apellido": ["Martínez","Velasco"],
+    "nif": "Y8902655P",
+    "telefono": 643099634,
+    "tipo": "repartidor",
+    "tienda": {
+        "direccion": {
+            "provincia": "Gerona",
+            "localidad": "Gerona",
+            "cp": "17003", 
+            "calle": "Carrer Migdia",
+            "numero": 93   
+            }  
+        }
+},
+{
+    "empleado_id": 4,
+    "nombre": "Eduardo" ,
+    "apellido": ["Terés","Peña"],
+    "nif": "L6405476P",
+    "telefono": 693763298,
+    "tipo": "repartidor",
+    "tienda": {
+        "direccion": {
+            "provincia": "Madrid",
+            "localidad": "Madrid",
+            "cp": "28032", 
+            "calle": "C. Condesa Vega del Pozo",
+            "numero": 17    
+            } 
+    }
+}
+])

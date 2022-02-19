@@ -1,0 +1,107 @@
+db.clientes.insert([
+{ 
+    "cliente_id": 1,
+    "nombre": "Daniel" ,
+    "apellido": ["Hernández","Martínez"],
+    "direccion": {
+        "provincia": "Barcelona",
+        "localidad": "Barcelona",
+        "cp": "08015", 
+        "calle": "Carrer de la Diputació",
+        "numero": 92,
+        "piso": 2,
+        "puerta": 1        
+        } ,
+    "telefono": 628452384
+    },         
+{ 
+    "cliente_id": 2,
+    "nombre": "Macarena" ,
+    "apellido": ["Olayo","Arribas"],
+    "direccion": {
+        "provincia": "Barcelona",
+        "localidad": "Barcelona",
+        "cp": "08006", 
+        "calle": "Carrer d'Aribau",
+        "numero": 230,
+        "piso": 2,
+        "puerta": 2        
+        } ,
+    "telefono": 643099634
+    }, 
+{
+    "cliente_id": 3,
+    "nombre": "Alberto" ,
+    "apellido": ["Martínez","Castillo"],
+    "direccion": {
+        "provincia": "Barcelona",
+        "localidad": "Barcelona",
+        "cp": "08015", 
+        "calle": "Carrer de Tarragona",
+        "numero": 108,
+        "piso": 1,
+        "puerta": 1        
+        } ,
+    "telefono": 668724367
+    }, 
+{
+    "cliente_id": 4,
+    "nombre": "Juan" ,
+    "apellido": ["Saez","Vega"],
+    "direccion": {
+        "provincia": "Gerona",
+        "localidad": "Gerona",
+        "cp": "17005", 
+        "calle": "Carrer Mare de Déu del Remei",
+        "numero": 8,
+        "piso": 1,
+        "puerta": 1        
+        } ,
+    "telefono": 668726356
+    }, 
+{
+    "cliente_id": 5,
+    "nombre": "Zoe" ,
+    "apellido": ["Ramirez","Gea"],
+    "direccion": {
+        "provincia": "Madrid",
+        "localidad": "Madrid",
+        "cp": "28041", 
+        "calle": "Av. de Andalucía",
+        "numero": 7,
+        "piso": 3,
+        "puerta": 1        
+        } ,
+    "telefono": 989827265
+    }, 
+{
+    "cliente_id": 6,
+    "nombre": "Sonia" ,
+    "apellido": ["Gea","Ruiz"],
+    "direccion": {
+        "provincia": "Barcelona",
+        "localidad": "Castelldefels",
+        "cp": "08860", 
+        "calle": "Rambla Josep Tarradellas",
+        "numero": 8,
+        "piso": 1,
+        "puerta": 1        
+        } ,
+    "telefono": 932800303
+    }, 
+{
+    "cliente_id": 7,
+    "nombre": "Daniel" ,
+    "apellido": ["Herman","Pacocha"],
+    "direccion": {
+        "provincia": "Barcelona",
+        "localidad": "Badalona",
+        "cp": "08912", 
+        "calle": "Carrer de Santa Bàrbara",
+        "numero": 64,
+        "piso": 2,
+        "puerta": 2     
+        } ,
+    "telefono": 626652498
+}
+])   

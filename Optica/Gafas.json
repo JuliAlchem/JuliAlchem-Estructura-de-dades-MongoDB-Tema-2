@@ -1,0 +1,98 @@
+db.gafas.insert([
+{
+    "gafas_id": 1,
+    "marca": "Tous",
+    "montura": {
+        "tipo": "metal",
+        "color": "Bronce"
+    },
+    "cristal": {
+        "color": "Marron",
+        "graduacion": {
+            "od": "-1.25",
+            "oi": "-1.25"
+        }
+    },
+    "precio": 86.7
+    },
+{
+    "gafas_id": 2,
+    "marca": "Ray Ban",
+    "montura": {
+        "tipo": "pasta",
+        "color": "Negro"
+    },
+    "cristal": {
+        "color": "normales",
+        "graduacion": {
+            "od": "1.50",
+            "oi": "1.25"
+        }
+    },
+    "precio": 101
+    },
+{
+    "gafas_id": 3,
+    "marca": "Ray Ban" ,
+    "montura": {
+        "tipo": "metal",
+        "color": "Dorado"
+    },
+    "cristal": {
+        "color": "Verde",
+        "graduacion": {
+            "od": "0",
+            "oi": "0"
+        }
+    },
+    "precio": 84.9
+    },
+{
+    "gafas_id": 4,
+    "marca": "Polaroid",
+    "montura": {
+        "tipo": "flotante",
+        "color": "Havana"
+    },
+    "cristal": {
+        "color": "Gris",
+        "graduacion": {
+            "od": "-0.75",
+            "oi": "-0.25"
+        }
+    },
+    "precio": 55.45
+    },
+{
+    "gafas_id": 5,
+    "marca": "Carolina Herrera" ,
+    "montura": {
+        "tipo": "flotante",
+        "color": "Negro"
+    },
+    "cristal": {
+        "color": "normales",
+        "graduacion": {
+            "od": "-0.75",
+            "oi": "-1.25"
+        }
+    },
+    "precio": 89
+    },
+{
+    "gafas_id": 6,
+    "marca": "Polaroid" ,
+    "montura": {
+        "tipo": "pasta",
+        "color": "Azul"
+    },
+    "cristal": {
+        "color": "Azul",
+        "graduacion": {
+            "od": "-1",
+            "oi": "-1"
+        }
+    },  
+    "precio": 32.55
+    }
+])

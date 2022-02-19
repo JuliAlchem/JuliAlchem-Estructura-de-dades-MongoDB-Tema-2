@@ -1,0 +1,108 @@
+db.proveedores.insert([
+{
+    "nombre": "Sergio Terés" ,
+    "direccion": {
+        "calle": "Carrer de la Diputació",
+        "numero": 92,
+        "piso": 2,
+        "puerta": 1,
+        "cuidad": "Barcelona",
+        "cp": "08015", 
+        "pais": "España"
+        } ,
+    "contacto": {
+        "telefono": 634881331,
+        "fax": 989827265
+    },
+    "nif": "L0984556B",
+    "gafas_marca": ["tous"]
+    },
+{
+    "nombre": "Víctor Arribas",
+    "direccion": { 
+        "calle": "Carrer de Tarragona" ,
+        "numero": 108,
+        "piso": 1,
+        "puerta": 3,
+        "cuidad": "Barcelona",
+        "cp": "08015",
+        "pais": "España",
+        } ,
+    "contacto": {
+        "telefono": 693763298,
+        "fax": 906762900
+        },
+    "nif": "L6405476P",
+    "gafas_marca": ["fendi"]
+    },
+{
+    "nombre": "Anna Hernández" ,
+    "direccion": {
+        "calle": "Avinguda Diagonal",
+        "numero": 3,
+        "piso": 1,
+        "puerta": 1,
+        "cuidad": "Barcelona",
+        "cp": "08019", 
+        "pais": "España"
+        } ,
+    "contacto": {
+        "telefono": 635677637,
+        "fax": 932800303
+    },
+    "nif": "M1234567A",
+    "gafas_marca": ["ray ban", "polaroid"]
+    },   
+{
+    "nombre": "Soledad Castillo" ,
+    "direccion": {
+        "calle": "C. Carretería",
+        "numero": 84,
+        "piso": 2,
+        "puerta": 3,
+        "cuidad": "Málaga",
+        "cp": "29008", 
+        "pais": "España"
+        } ,
+    "contacto": {    
+        "telefono": 652294700,
+        "fax": 945879078
+    },
+    "nif": "P8134584A"
+    },       
+{
+    "nombre": "Alberto Martínez" ,
+    "direccion": {
+        "calle": "Carrer de Ganduxer",
+        "numero": 25,
+        "piso": 4,
+        "puerta": 2,
+        "cuidad": "Barcelona",
+        "cp": "08021", 
+        "pais": "España"
+        } ,
+    "contacto": {
+        "telefono": 687889314,
+        "fax": 956983271
+    },
+    "nif": "Y7889055E"
+    },
+{
+    "nombre": "Macarena Olayo" ,
+    "direccion": {
+        "calle": "Carrer d'Aribau",
+        "numero": 230,
+        "piso": 3,
+        "puerta": 1,
+        "cuidad": "Barcelona",
+        "cp": "08006", 
+        "pais": "España"
+        } ,
+    "contacto": {
+        "telefono": 643099634,
+        "fax": 997491289
+    },
+    "nif": "Y8902655P", 
+    "gafas_marca": ["carolina herrera"]
+    }
+])   

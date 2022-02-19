@@ -1,0 +1,119 @@
+db.productos.insert([
+{
+    "producto_id": 1,
+    "tipo": "bebida",
+    "nombre": "Coca Cola",
+    "descripcion": "Sabor Original Botella 50 Cl.",
+    "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/3199161144",
+    "precio": 1.65
+},
+{
+    "producto_id": 2,
+    "tipo": "bebida",
+    "nombre": "Coca Cola",
+    "descripcion": "Sin Cafeína Lata 33 Cl.",
+    "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/3199161150",
+    "precio": 1
+},
+{
+    "producto_id": 3,
+    "tipo": "bebida",
+    "nombre": "Agua Mineral Evian",
+    "descripcion": "Natural Botella 75 Cl.",
+    "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/3199161092",
+    "precio": 1.95
+},
+{
+    "producto_id": 4,
+    "tipo": "bebida",
+    "nombre": "Cerveza Desperados",
+    "descripcion": "Botella 33 Cl.",
+    "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/3199161095",
+    "precio": 1.99
+},
+{
+    "producto_id": 5,
+    "tipo": "bebida",
+    "nombre": "Cerveza Corona",
+    "descripcion": "Botella 3.55 Cl.",
+    "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/3199161219",
+    "precio": 1.99    
+},
+{
+    "producto_id": 6,
+    "tipo": "bebida",
+    "nombre": "Cerveza Estrella Damm",
+    "descripcion": "Lata 33 Cl.",
+    "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/3199161233",
+    "precio": 0.95
+},
+{
+    "producto_id": 7,
+    "tipo": "hamburguesa",
+    "nombre": "CLASICA",
+    "descripcion": "INGREDIENTES:200 gr.de ternera Cebolla fresca, Tomate, Cogollos, Mayonesa casera",
+    "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/2356973012",
+    "precio": 9.6
+},
+{
+    "producto_id": 8,
+    "tipo": "hamburguesa",
+    "nombre": "GRAN VEGANO",
+    "descripcion": "INGREDIENTES:Cebolla fresca, Tomate, Cogollos, Aguacate, Burger de garbanzos, maíz dulce, espinaca baby y pimiento rojo, Chutney picante",
+    "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/2356973037",
+    "precio": 10.6
+},
+{
+    "producto_id": 9,
+    "tipo": "hamburguesa",
+    "nombre": "POLLO LA CRÈME",
+    "descripcion": "INGREDIENTES: Cebolla caramelizada, Sour cream, Tomate, Cogollos, Cebolla, Mayonesa casera, Pechuga de pollo marinada",
+    "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/2356973047",
+    "precio": 11.65
+},
+{
+    "producto_id": 10,
+    "tipo": "pizza",
+    "nombre": "Napoli",
+    "descripcion": "Tomate, mozzarella, anchoas, alcaparras, olivas negras, orégano, aceite de oliva y albahaca",
+    "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/ye6mdnrkl2wjykodphwh",
+    "precio": 9.95,
+    "categoria": "Favoritas"
+},
+{
+    "producto_id": 11,
+    "tipo": "pizza",
+    "nombre": "Margherita",
+    "descripcion": "Tomate, mozzarella, aceite de oliva, albahaca y parmesano",
+    "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/n94rkfse7yl8ba6bpkod",
+    "precio": 6.9,
+    "categoria": "Clasica"
+},
+{
+    "producto_id": 12,
+    "tipo": "pizza",
+    "nombre": "Vegetariana",
+    "descripcion": "Tomate, mozzarella, olivas negras, champiñones, tomate cherry, cebolla roja, aceite de oliva virgen extra y albahaca",
+    "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/zcopsuk0fopu8ctmktys",
+    "precio": 10.9,
+    "categoria": "Veggie"
+},
+{
+    "producto_id": 13,
+    "tipo": "pizza",
+    "nombre": "Quattro Formaggi",
+    "descripcion": "Mozzarella, ricotta, gorgonzola, pecorino, aceite de oliva virgen extra y albahaca",
+    "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/wpn9e6wrltj1eddhqctw",
+    "precio": 11.9,
+    "categoria": "Favoritas"
+},
+{
+    "producto_id": 14,
+    "tipo": "pizza",
+    "nombre": "Diavola",
+    "descripcion": "Tomate, mozzarella, salame, cebolla roja, peperoncino y aceite de oliva virgen extra",
+    "imagen": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/rqwijxsfckxq5yx1lqyu",
+    "precio": 10.9,
+    "categoria": "Clasica"
+}
+])

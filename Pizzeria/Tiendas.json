@@ -1,0 +1,32 @@
+db.tiendas.insert([
+{
+    "tienda_id": 1, 
+    "direccion": {
+        "provincia": "Madrid",
+        "localidad": "Madrid",
+        "cp": "28032", 
+        "calle": "C. Condesa Vega del Pozo",
+        "numero": 17    
+        } 
+    },
+{
+    "tienda_id": 2, 
+    "direccion": {
+        "provincia": "Barcelona",
+        "localidad": "Barcelona",
+        "cp": "08006", 
+        "calle": "Via Augusta",
+        "numero": 160    
+        } 
+    },
+{
+    "tienda_id": 3, 
+    "direccion": {
+        "provincia": "Gerona",
+        "localidad": "Gerona",
+        "cp": "17003", 
+        "calle": "Carrer Migdia",
+        "numero": 93   
+        } 
+}
+])

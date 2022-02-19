@@ -1,0 +1,18 @@
+db.empleados.insert([
+{
+    "empleado_id": 1,
+    "nombre": "Eduardo Peña"
+},
+{
+    "empleado_id": 2,
+    "nombre": "Luis Velasco"
+},
+{
+    "empleado_id": 3,
+    "nombre": "Denisse Mayo"
+},
+{
+    "empleado_id": 4,
+    "nombre": "Eduardo Mottola"
+}
+])
